@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    font-family: 'concert one', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+/* Resetar o site */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /*Estilizando o Menu Principal */
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.tituloPrincipal{
+    color: blueviolet;
+}
+.container{
+    background-image: url('../img/hacker.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+}
+
+
